@@ -16,7 +16,7 @@ We'd like for you build out the following methods for each class. As you work, w
 
 #### Passenger
 A Passenger should be initialized with a name as a string. After the Passenger has been initialized, it shouldn't be changed.
-- `Passenger#name`
+- x `Passenger#name`
   - Returns the name of the passenger
 - `Passenger#rides`
   - Returns an array of Ride instances that this person has been on
@@ -31,24 +31,24 @@ A Passenger should be initialized with a name as a string. After the Passenger h
 
 #### Ride
 A Ride should be initialized with a driver (as a Driver object), a passenger (as a Passenger object), and a distance (as a float i.e. `3.2`). The distance refers to miles.
-- `Ride#passenger`
+- x `Ride#passenger`
   - Returns the Passenger object for that ride
-- `Ride#driver`
+- x `Ride#driver`
   - Returns the Driver object for that ride
-- `Ride#distance`
+- x `Ride#distance`
   - Returns the distance of the ride
-- `Ride.average_distance`
+- x `Ride.average_distance`
   - Returns the average distance across ALL rides
   
 #### Driver
 A Driver should be initialized with a name as a string.
-- `Driver#name`
+- x `Driver#name`
   - Returns the driver's name
-- `Driver#passenger_names`
+x - `Driver#passenger_names`
   - Returns an array of all Passengers' names a driver has driven. The names should be **unique** (no repeats).
-- `Driver#rides`
+- x `Driver#rides`
   - Returns an array of all Rides a driver has made
-- `Driver.all`
+- x `Driver.all`
   - Returns an array of all Drivers
 - `Driver.mileage_cap(distance)`
   - Takes an argument of a distance (float) and returns an array of all Drivers who have driven over the mileage
